@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pegada_De_Carbono", "pegada_De_Carbono\pegada_De_Carbono.csproj", "{C6A56C50-ACDD-4016-B231-5F1AB4402999}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6A56C50-ACDD-4016-B231-5F1AB4402999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A56C50-ACDD-4016-B231-5F1AB4402999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A56C50-ACDD-4016-B231-5F1AB4402999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A56C50-ACDD-4016-B231-5F1AB4402999}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0FC59DD-3F4C-485E-B465-4F5D11B7D174}
+	EndGlobalSection
+EndGlobal

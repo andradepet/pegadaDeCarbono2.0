@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "f368c0ac-7328-4a62-aa91-a6cd3604dc73",
+		"name": "calculoCarbono",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "calculoCarbono",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"energiaCO2Mes\" : 11,\n\t\"gasCozinhaCO2Mes\" : 12,\n\t\"gasNaturalM3CO2Mes\" : 3,\n\t\"tremCO2\" : 4.5,\n\t\"metroCO2\" : 4.33,\n\t\"motoGasolinaCO2\" : 4.153,\n\t\"motoEtanolCO2\" : 0,\n\t\"carroGasolinaPequenoCO2\" : 1,\n\t\"carroGasolinaMedioCO2\" : 2,\n\t\"carroGasolinaGrandeCO2\" : 3,\n\t\"carroEtanolPequenoCO2\" : 0,\n\t\"carroEtanolMedioCO2\" : 2.1,\n\t\"carroEtanolGrandeCO2\" : 0,\n\t\"carroDieselCO2\" : 0,\n\t\"onibusDieselCO2\" : 0\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44349/api/calculoCarbono/result",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44349",
+					"path": [
+						"api",
+						"calculoCarbono",
+						"result"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
