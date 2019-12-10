@@ -14,7 +14,7 @@ namespace pegada_De_Carbono.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "<h1>Servidor Iniciado</h1>" };
+            return new string[] { "Servidor Iniciado" };
         }
 
         // GET api/values/5
