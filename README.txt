@@ -2,14 +2,16 @@ PegadaDeCarbono Aps sobre pegada de carbono
 
 Baixe esse projeto
 
-Necess·rio debugar o projeto para efetuar a requisiÁ„o local.
+Necess√°rio debugar o projeto para efetuar a requisi√ß√£o local.
 
-Caso n„o tenha o Visual Studio baixado:
+Caso n√£o tenha o Visual Studio baixado:
 - Baixe-o
 - Execute o .sln na pasta do projeto
 - No visual studio, clique em Debug > Start Debugging
-- Ir· abrir o navegador com a seguinte frase "Servidor Iniciado".
+- Ir√° abrir o navegador com a seguinte frase "Servidor Iniciado".
 
 Agora basta importar arquivo calculoCarbono.postman_collection.json para um programa que faca testes de api, como Postman Ou insomnia
 
 E efetuar a requisicao
+
+Obs.: Caso n√£o funcione, desabilitar SSL e PROXY nas configura√ß√µes do programa que est√° testando a API.
